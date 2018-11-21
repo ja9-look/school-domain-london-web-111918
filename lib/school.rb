@@ -20,8 +20,8 @@ class School
   
   def sort(hash)
     hash.each do |key, value|
-      value.each do |array|
-        array.sort
+      value.each do |string|
+        string.sort
       end
     end
   end
