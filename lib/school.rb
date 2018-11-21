@@ -19,6 +19,6 @@ class School
   end
   
   def sort
-    hash[key].values.sort
+    @roster.sort_by {|grade, student_name| 
   end
 end
