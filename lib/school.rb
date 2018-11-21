@@ -20,7 +20,9 @@ class School
   
   def sort
     @roster.each do |grade, student_name|
-      student_name.sort_by[student_name]
+      student_name.sort! |a,b|
+      [a <==> b]
     end
   end
+    
 end
