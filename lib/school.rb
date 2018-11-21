@@ -18,10 +18,10 @@ class School
     @roster[grade]
   end
   
-  def sort(@roster)
-    @roster.each do |grade, student_name|
-      student_name.each do |name|
-        name.sort
+  def sort(hash)
+    hash.each do |key, value|
+      value.each do |array|
+        array.sort
       end
     end
   end
