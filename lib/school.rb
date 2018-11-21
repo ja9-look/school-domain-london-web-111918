@@ -19,10 +19,6 @@ class School
   end
   
   def sort(hash)
-    hash.each do |key, value|
-      value.each do |string|
-        string.sort
-      end
-    end
+   @roster[grade] = @roster[grade].sort
   end
 end
